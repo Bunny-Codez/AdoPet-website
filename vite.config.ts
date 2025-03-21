@@ -17,4 +17,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/AdoPet-website", // Set this to match your GitHub repo name
 }));
